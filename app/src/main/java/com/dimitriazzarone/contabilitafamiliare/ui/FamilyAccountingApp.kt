@@ -472,6 +472,7 @@ private fun TransactionRow(
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun AddTransactionForm(
     onSave: (
